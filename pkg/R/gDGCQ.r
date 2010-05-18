@@ -1,4 +1,4 @@
-#     MDGCQ
+#     gDGCQ
 #
 # Description:
 
@@ -56,10 +56,10 @@
 
 # Examples:
 
-#  MDGCQ(500,rep(3,100),5,"average",TRUE)
+#  gDGCQ(500,rep(3,100),5,"average",TRUE)
 
 
-MDGCQ<-function(N,n,p,linkage,densplot,diagonal)
+gDGCQ<-function(N,n,p,linkage,densplot,diagonal)
 {
 library(mvtnorm)
 #begin of Q_MDGC

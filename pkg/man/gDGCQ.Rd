@@ -7,7 +7,7 @@
 	It is supposed that there are replicates of p-variate observations for each instance.
 
 \usage{
-	MDGCQ(N,n,p,linkage,densplot,diagonal)
+	gDGCQ(N,n,p,linkage,densplot,diagonal)
 }
 \arguments{
   \item{N}{
@@ -68,7 +68,7 @@
 	
 }
 \examples{
-	MDGCQ(500,rep(3,100),5,"average",TRUE,TRUE)
+	gDGCQ(500,rep(3,100),5,"average",TRUE,TRUE)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

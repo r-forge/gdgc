@@ -10,7 +10,7 @@
 # Dependencies: 
 
 #         library(mvtnorm)
-#         function MDGCQ
+#         function gDGCQ
 
 # Usage:
 #         
@@ -73,7 +73,7 @@
  
 gDGC<-function(data,linkage.method="average",diagonal=FALSE,B=1500,nivel=4)
 {
-#source("MDGCQ.r") 
+#source("gDGCQ.r") 
 
 n=c(as.data.frame(summary(as.factor(data[,1])))[,1])
 p=ncol(data)-1;
@@ -111,7 +111,7 @@ for (i in (1:k)) {D[,i]<-mahalanobis(M,M[i,],pooled,inverted=T)}
 D=sqrt(D)
 rownames(D)=levels(index)
 hc=hclust(as.dist(D),method=linkage.method)
-q<-MDGCQ(N=B,n,p,linkage=linkage.method,densplot=FALSE,diagonal=diagonal)
+q<-gDGCQ(N=B,n,p,linkage=linkage.method,densplot=FALSE,diagonal=diagonal)
 res<-as.data.frame(c(linkage.method,diagonal,B,as.matrix(q)))
 rownames(res)=c("Linkage","Diagonal","B",names(q))
 colnames(res)='-------------'

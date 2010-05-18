@@ -21,7 +21,7 @@ The package contains the following main functions: gDGC and MDGCQ.
 
 }
 \author{
-	Julio A. Di Rienzo  <email: dirienzo@agro.unc.edu.ar> and Maria del Carmen Romero <email: mariadelc.romero@gmail.com>
+	Julio A. Di Rienzo  <email: dirienzo@agro.unc.edu.ar>, Fernando Casanoves <email: casanoves@catie.ac.cr> and Maria del Carmen Romero <email: mariadelc.romero@gmail.com>
 	
 	Maintainer: 
 	Julio A. Di Rienzo  <email: dirienzo@agro.unc.edu.ar> and Maria del Carmen Romero <email: mariadelc.romero@gmail.com>
@@ -32,7 +32,7 @@ The package contains the following main functions: gDGC and MDGCQ.
 \keyword{ package }
 \seealso{
 	\code{\link{gDGC}}, 
-	\code{\link{MDGCQ}},
+	\code{\link{gDGCQ}},
 
 
 }

@@ -61,7 +61,7 @@ gDGC(data,linkage.method="average",diagonal=FALSE,B=500,level=5)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-	\code{\link{MDGCQ}}
+	\code{\link{gDGCQ}}
 }
 \examples{
 	gDGC(data,linkage.method="average",FALSE,500,TRUE,level)
