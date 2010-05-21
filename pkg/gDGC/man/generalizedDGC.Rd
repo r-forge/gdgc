@@ -1,11 +1,11 @@
-\name{gDGC}
-\alias{gDGC}
-\title{gDGC}
+\name{generalizedDGC}
+\alias{generalizedDGC}
+\title{generalizedDGC}
 \description{This function generates a dendrogram representation of group mean vectors according to Mahalanobis distance.
  	In case the dimension of data is 1, the distances are just the Euclidean distances using scaled atributes (divided by their common sd) 
 }
 \usage{
-gDGC(data,linkage.method="average",diagonal=FALSE,B=500,level=5)
+generalizedDGC(data,linkage.method="average",diagonal=FALSE,B=500,level=5)
 }
 \arguments{
   \item{data}{
@@ -62,10 +62,10 @@ gDGC(data,linkage.method="average",diagonal=FALSE,B=500,level=5)
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-	\code{\link{gDGCQ}}
+	\code{\link{generalizedDGCQ}}
 }
 \examples{
-	gDGC(data,linkage.method="average",FALSE,500,TRUE,level)
+	generalizedDGC(data,linkage.method="average",FALSE,500,TRUE,level)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

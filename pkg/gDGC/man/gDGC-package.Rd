@@ -17,7 +17,7 @@ LazyLoad: \tab yes\cr
 }
 
 
-The package contains the following main functions: gDGC and MDGCQ.
+The package contains the following main functions: generalizedDGC and generalizedDGCQ.
 
 }
 \author{
@@ -31,8 +31,8 @@ The package contains the following main functions: gDGC and MDGCQ.
 }
 \keyword{ package }
 \seealso{
-	\code{\link{gDGC}}, 
-	\code{\link{gDGCQ}},
+	\code{\link{generalizedDGC}}, 
+	\code{\link{generalizedDGCQ}},
 
 
 }

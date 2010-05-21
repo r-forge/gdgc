@@ -1,4 +1,4 @@
-#     gDGCQ
+#     generalizedDGCQ
 #
 # Description:
 
@@ -15,7 +15,7 @@
 
 # Usage:
 #         
-#         MDGCQ(N,n,p,linkage,densplot)
+#         generalizedDGCQ(N,n,p,linkage,densplot)
 # Arguments:
 
 #    N:         simulation cycles
@@ -56,10 +56,10 @@
 
 # Examples:
 
-#  gDGCQ(500,rep(3,100),5,"average",TRUE)
+#  generalizedDGCQ(500,rep(3,100),5,"average",TRUE)
 
 
-gDGCQ<-function(N,n,p,linkage,densplot,diagonal)
+generalizedDGCQ<-function(N,n,p,linkage,densplot,diagonal)
 {
 library(mvtnorm)
 #begin of Q_MDGC

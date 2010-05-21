@@ -1,6 +1,6 @@
-\name{gDGCQ}
-\alias{gDGCQ}
-\title{gDGCQ}
+\name{generalizedDGCQ}
+\alias{generalizedDGCQ}
+\title{generalizedDGCQ}
 \description{This function calculates, by Monte Carlo simulation, the upper percentile points of the distribution of the "distance" 
 	to the root node of a binary tree obtained by aglomerative cluster analysis algorithms applied to the mahalanobis distance 
 	matrix between instances to be clasSified.
@@ -8,7 +8,7 @@
 }
 
 \usage{
-	gDGCQ(N,n,p,linkage,densplot,diagonal)
+	generalizedDGCQ(N,n,p,linkage,densplot,diagonal)
 }
 \arguments{
   \item{N}{
@@ -69,7 +69,7 @@
 	
 }
 \examples{
-	gDGCQ(500,rep(3,100),5,"average",TRUE,TRUE)
+	generalizedDGCQ(500,rep(3,100),5,"average",TRUE,TRUE)
 
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

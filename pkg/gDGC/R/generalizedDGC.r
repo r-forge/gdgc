@@ -1,4 +1,4 @@
-# gDGC 
+# generalizedDGC 
 
 # Description:
 
@@ -10,11 +10,11 @@
 # Dependencies: 
 
 #         library(mvtnorm)
-#         function gDGCQ
+#         function generalizedDGCQ
 
 # Usage:
 #         
-# usage     gDGC(x,linkage.method="average",diagonal=FALSE,B=500,nivel=5)
+# usage     generalizedDGC(x,linkage.method="average",diagonal=FALSE,B=500,nivel=5)
 
 # Arguments:
 #
@@ -68,10 +68,10 @@
  
 # Examples:
 
-# gDGC(data,linkage.method="average",FALSE,500,TRUE,level)
+# generalizedDGC(data,linkage.method="average",FALSE,500,TRUE,level)
 # 
  
-gDGC<-function(data,linkage.method="average",diagonal=FALSE,B=1500,nivel=4)
+generalizedDGC<-function(data,linkage.method="average",diagonal=FALSE,B=1500,nivel=4)
 {
 #source("gDGCQ.r") 
 
